@@ -5,7 +5,7 @@ body {
 	background-color: #C1E4E9;
 }
 
-.container {
+.top {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
@@ -171,6 +171,9 @@ body {
   top: 59vh;
 }
 
+.contents{
+
+}
+
 .contents-top{
-	
 }
