@@ -172,8 +172,10 @@ body {
 }
 
 .contents{
-
+	width:1080px;
+	margin: 0 auto;
 }
-
 .contents-top{
+	text-align:center;
 }
+
