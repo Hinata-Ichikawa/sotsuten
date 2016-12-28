@@ -1,15 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-	background-color: #C1E4E9;
-}
-
 .top {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
+	background-color: #C1E4E9;
 }
 
 .sub-title {
@@ -178,4 +175,32 @@ body {
 .contents-top{
 	text-align:center;
 }
-
+.sentence{
+	text-align: center;
+	line-height: 3.0em;
+	margin-bottom: 10px;
+}
+h3 img{
+	display: block;
+	margin:0 auto;
+	padding:10px 0 40px 0;
+}
+.about{
+	background-color: #F5F5F5;
+}
+.map{
+	background-color: #C1E4E9;
+}
+.access{
+	background-color: #FAF7BC;
+}
+.image{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.works{
+	background-color: #F1F0E3;
+}
+.bottom{
+	background-color: #C1E4E9;
+}
