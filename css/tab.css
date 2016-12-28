@@ -1,0 +1,132 @@
+
+img {
+  max-width: 100%;
+}
+
+.NCU {
+  width: 50vw;
+  top: 12vw;
+  right: 14vw
+}
+
+.art {
+  top: 14vh;
+  right: 14vw;
+  width: 65vw;
+}
+
+.title {
+  top: 45%;
+}
+
+.title img {
+  margin-bottom: 6vw;
+}
+
+.title-top {
+  text-align: right;
+  margin: 0;
+  left: -14vw;
+  right: 0;
+}
+
+.title-bottom {
+  right: 14vw;
+  text-align: right;
+}
+
+.Graduation {
+  width: 95vw;
+}
+
+.Works {
+  width: calc(95vw * 0.442);
+  margin: 0;
+}
+
+.Exhibition {
+  width: calc(95vw * 0.776);
+}
+
+.year {
+  width: calc(95vw * 0.618);
+  position: relative;
+  right: -17vw;
+}
+
+
+
+.date {
+  width: 70vw;
+}
+
+.time {
+  width: 40vw;
+}
+
+.place1 {
+  height: 2vh;
+}
+
+.place2 {
+  height: 2.03vh;
+  margin-top: 1vh;
+}
+
+.flower img {
+  width: 19vw;
+}
+
+
+.flower img:nth-child(1) {
+  left: 3vw;
+  top: 0vh;
+}
+.flower img:nth-child(2) {
+  left: 12vw;
+  top: 88vh;
+}
+.flower img:nth-child(3) {
+  left: 30vw;
+  top: 25vh;
+}
+.flower img:nth-child(4) {
+  left: 40vw;
+  top: 73vh;
+}
+.flower img:nth-child(5) {
+  left: 45vw;
+  top: 44vh;
+}
+.flower img:nth-child(6) {
+  left: 60vw;
+  top: 55vh;
+}
+.flower img:nth-child(7) {
+  left: 70vw;
+  top: 66vh;
+}
+.flower img:nth-child(8) {
+  left: 80vw;
+  top: 27vh;
+}
+.flower img:nth-child(9) {
+  left: 87vw;
+  top: 88vh;
+}
+.flower img:nth-child(10) {
+  left: 50vw;
+  top: 16vh;
+}
+.flower img:nth-child(11) {
+  left: 70vw;
+  top: 5vh;
+}
+.flower img:nth-child(12) {
+  left: 6vw;
+  top: 31vh;
+}
+.flower img:nth-child(13) {
+  left: 22vw;
+  top: 59vh;
+}
