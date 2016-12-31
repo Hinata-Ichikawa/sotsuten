@@ -45,7 +45,7 @@
 }
 
 .title-bottom  {
-	margin-right: -5vw;
+  margin-right: -5vw;
   position: relative;
   right: -5vw;
 }
@@ -101,18 +101,19 @@
 	margin: 2vh auto 0;
 }
 
-.flower {
-	position: fixed;
-	top: 0;
+/*.flower {
+/*	position: relative;*/
+/*	top: 0;
 	left: 0;
 	width: 100vw;
 	height: 100vh;
 	z-index: -1;
-}
+}*/
 
 .flower img {
 	width: 12vw;
 	position: absolute;
+	z-index: 0;
 }
 
 .flower img:nth-child(1) {
@@ -144,7 +145,7 @@
   top: 66vh;
 }
 .flower img:nth-child(8) {
-  left: 95vw;
+  left: 86vw;
   top: 27vh;
 }
 .flower img:nth-child(9) {
@@ -187,6 +188,13 @@ h3 img{
 }
 .about{
 	background-color: #F5F5F5;
+}
+.about-flower img{
+	position: absolute;
+}
+.about-flower img:nth-child(1){
+	top:100vw;
+	right:100vh;
 }
 .map{
 	background-color: #C1E4E9;
