@@ -15,18 +15,18 @@
 }
 
 .NCU {
-	width: 30vw;
+	width: 35vw;
 	position: absolute;
 	top: 3vh;
-	right: 11vw;
+	right: 20vw;
 }
 
 .art {
-	width: 40vw;
+	width: 50vw;
 	display: block;
 	position: absolute;
 	top: 12vh;
-	right: 11vw;
+	right: 20vw;
 }
 
 .title {
@@ -80,16 +80,20 @@
 .date {
 	display: block;
 	width: 50vw;
-	margin: 10vh auto 0;
+	position: absolute;
+	left: 17vw;
+	top:7vh;
 }
 
 .time {
+	position: absolute;
 	display: block;
-	width: 26vw;
-	margin: 2vh auto 0;
+	width: 30vw;
+	left: 17vw;
+	top:17vh;
 }
 
-.place1 {
+/*.place1 {
 	height: 2.75vh;
 	display: inline-block;
 	margin: 5vh auto 0;
@@ -99,7 +103,7 @@
 	height: 2.75vh;
 	display: inline-block;
 	margin: 2vh auto 0;
-}
+}*/
 
 /*.flower {
 /*	position: relative;*/
@@ -111,75 +115,77 @@
 }*/
 
 .flower img {
-	width: 12vw;
+	width: 14vw;
 	position: absolute;
 	z-index: 0;
 }
 
-.flower img:nth-child(1) {
+/*.flower img:nth-child(1) {
   left: 10vw;
   top: 7vh;
-}
+}*/
 .flower img:nth-child(2) {
-  left: 3vw;
-  top: 84vh;
+  left: 85vw;
+  top: 75vh;
 }
 .flower img:nth-child(3) {
-  left: 30vw;
-  top: 25vh;
+  left: 60vw;
+  top: 65vh;
 }
-.flower img:nth-child(4) {
+/*.flower img:nth-child(4) {
   left: 40vw;
   top: 73vh;
 }
 .flower img:nth-child(5) {
   left: 45vw;
   top: 44vh;
-}
-.flower img:nth-child(6) {
+}*/
+/*.flower img:nth-child(6) {
   left: 60vw;
   top: 55vh;
-}
+}*/
 .flower img:nth-child(7) {
-  left: 70vw;
-  top: 66vh;
+  left: 10vw;
+  top: 8vh;
 }
 .flower img:nth-child(8) {
-  left: 86vw;
-  top: 27vh;
+  left: 20vw;
+  top: 50vh;
 }
-.flower img:nth-child(9) {
+/*.flower img:nth-child(9) {
   left: 87vw;
   top: 80vh;
-}
+}*/
 .flower img:nth-child(10) {
-  left: 50vw;
-  top: 16vh;
+  left: 55vw;
+  top: 10vh;
 }
 .flower img:nth-child(11) {
-  left: 70vw;
-  top: 5vh;
+  left: 35vw;
+  top: 17vh;
 }
 .flower img:nth-child(12) {
-  left: -3vw;
-  top: 31vh;
+  left: 3vw;
+  top: 37vh;
 }
 .flower img:nth-child(13) {
-  left: 22vw;
-  top: 59vh;
+  left: 80vw;
+  top: 30vh;
 }
 
 .contents{
 	width:1080px;
-	margin: 0 auto;
+	margin: 0;
 }
 .contents-top{
 	text-align:center;
 }
 .sentence{
+	font-size: 2vh;
 	text-align: center;
 	line-height: 3.0em;
 	margin-bottom: 10px;
+	letter-spacing: 0.2em;
 }
 h3 img{
 	display: block;
@@ -187,19 +193,32 @@ h3 img{
 	padding:10px 0 40px 0;
 }
 .about{
+	width: 100vw;
 	background-color: #F5F5F5;
+	position: relative;
 }
 .about-flower img{
 	position: absolute;
+	width: 22vw;
 }
 .about-flower img:nth-child(1){
-	top:100vw;
-	right:100vh;
+	top:20vw;
+	right:47vh;
+}
+.about-flower img:nth-child(2){
+	top:30vw;
+	left:35vh;
+}
+.about-flower img:nth-child(3){
+	top:40vw;
+	right:45vh;
 }
 .map{
+	width: 100vw;
 	background-color: #C1E4E9;
 }
 .access{
+	width: 100vw;
 	background-color: #FAF7BC;
 }
 .image{
@@ -207,8 +226,10 @@ h3 img{
 	padding-bottom: 40px;
 }
 .works{
+	width: 100vw;
 	background-color: #F1F0E3;
 }
 .bottom{
+	width: 100vw;
 	background-color: #C1E4E9;
 }
