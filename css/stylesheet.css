@@ -1,12 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
+.top-layer{
+	width: 100vw;
+	background-color: #C1E4E9;
+	z-index: 0;
+}
 
 .top {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
-	background-color: #C1E4E9;
+	z-index: 2;
 }
 
 .sub-title {
@@ -117,7 +122,7 @@
 .flower img {
 	width: 14vw;
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
 }
 
 /*.flower img:nth-child(1) {
@@ -196,10 +201,16 @@ h3 img{
 	width: 100vw;
 	background-color: #F5F5F5;
 	position: relative;
+	z-index: 1;
+}
+.about-layer{
+	position: relative;
+	z-index: 3;
 }
 .about-flower img{
 	position: absolute;
 	width: 22vw;
+	z-index:2;
 }
 .about-flower img:nth-child(1){
 	top:20vw;
