@@ -181,9 +181,7 @@
 .header-fixed-box{
 	position: relative;
 	width: 100vw;
-	height: 10vh;
 	top: 90vh;
-
 }
 .header-fixed{
 	position: relative;
@@ -230,10 +228,9 @@ a:active{
 	z-index: 999;
 	width: 100vw;
 	height: 10vh;
-	overflow: hidden;
 	background-image: url("../images/sky.png");
+	opacity: 0;
 }
-
 .contents{
 	width:1080px;
 	margin: 0;
