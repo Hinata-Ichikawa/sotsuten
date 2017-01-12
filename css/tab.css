@@ -130,6 +130,9 @@ img {
   left: 22vw;
   top: 59vh;
 }
+.header-fixed li{
+  font-size: 4vw;
+}
 
 .contents{
   width:425px;

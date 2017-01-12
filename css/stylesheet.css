@@ -77,7 +77,7 @@
 	width: 100vw;
 	text-align: center;
 	position: absolute;
-	top:80%;
+	top:75%;
 	transform: translate(0%,-50%);
 	height:30vh;
 }
@@ -177,21 +177,61 @@
   left: 80vw;
   top: 30vh;
 }
+
 .header-fixed-box{
 	position: relative;
+	width: 100vw;
+	height: 10vh;
 	top: 90vh;
-}
-.header-fixed {
 
 }
+.header-fixed{
+	position: relative;
+	left: 20vw;
+	width: 60vw;
+	height: 10vh;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.header-fixed ul{
+	display: table;
+ 	table-layout: fixed;
+ 	text-align: center;
+	width: 100%;
+	height: 2.5vw;
+}
 .header-fixed li{
-	float: left;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
 	font-size: 2.5vw;
 	color: white;
+}
+a{
+	text-decoration: none;
+	transition: 0.25s;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: #FAF7BC;
+}
+a:active{
+	color: #FAF7BC;
 }
 .fixed{
 	position: fixed;
 	top: 0vh;
+	z-index: 999;
+	width: 100vw;
+	height: 10vh;
+	overflow: hidden;
+	background-image: url("../images/sky.png");
 }
 
 .contents{
@@ -252,10 +292,10 @@ h3 img{
 	background-color: #C1E4E9;
 }
 .map-place1{
-	margin-left: 10vw;
+	margin: 3vh 0 3vh 15vw;
 }
 .map-place2{
-	margin-left: 10vw;
+	margin: 3vh 0 3vh 15vw;
 }
 .access{
 	width: 100vw;
@@ -268,6 +308,12 @@ h3 img{
 .works{
 	width: 100vw;
 	background-color: #F1F0E3;
+}
+.works-place1{
+	margin: 3vh 0 3vh 15vw;
+}
+.works-place2{
+	margin: 3vh 0 3vh 15vw;
 }
 .bottom{
 	width: 100vw;
