@@ -111,7 +111,7 @@ img {
   top: 27vh;
 }
 .flower img:nth-child(9) {
-  left: 87vw;
+  left: 80vw;
   top: 88vh;
 }
 .flower img:nth-child(10) {
@@ -129,4 +129,70 @@ img {
 .flower img:nth-child(13) {
   left: 22vw;
   top: 59vh;
+}
+
+.contents{
+  width:425px;
+  margin: 0;
+}
+.contents-top{
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+}
+.about-NCU{
+  width: 50vw;
+}
+.about-date{
+  width: 60vw;
+}
+.about-flower img{
+  position: absolute;
+  width: 30vw;
+  z-index:2;
+}
+.about-flower img:nth-child(1){
+  left: 10vw;
+  top: 35vh;
+}
+.about-flower img:nth-child(2){
+  left: 60vw;
+  top: 45vh;
+}
+.about-flower img:nth-child(3){
+  left: 18vw;
+  top: 70vh;
+}
+.map-img{
+  width: 70vw;
+}
+.map-place1{
+  width: 55vw;
+  margin-left: 5vw;
+}
+.map-place2{
+  width: 80vw;
+  margin-left: 5vw;
+}
+.access-map{
+  width: 80vw;
+}
+.access-place{
+  width: 70vw;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+.access-place img{
+  margin: 5vw 0;
+}
+.works-place1{
+  width: 50vw;
+  margin-left: 5vw;
+}
+.works-place2{
+  width: 68vw;
+  margin-left: 5vw;
+}
+.works-img{
+  width: 70vw;
 }

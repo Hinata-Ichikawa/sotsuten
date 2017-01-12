@@ -4,9 +4,11 @@ window.onload = function(){
 	$(window).scroll(function () {
 
 		if ($(window).scrollTop() > headerfixedbox){
-			$(".header-fixed-box").css({"position": "fixed", "top": "0px", "background-image": "url(images/sky.png)"});
+			$(".header-fixed-box").addClass("fixed");
+			// $(".header-fixed").css({"top": "0vh"});
 		}else{
-			$(".header-fixed-box").css({"position": "relative","top": "90vh","background-image": "none"});
+			$(".header-fixed-box").removeClass("fixed");
+			// $(".header-fixed").css({"top": "90vh"});
 		}
 	})
 }
