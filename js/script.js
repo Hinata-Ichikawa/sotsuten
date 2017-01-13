@@ -7,7 +7,7 @@ $(function(){
 			$(".header-fixed-box").addClass("fixed");
 			$(".header-layer").animate({
 				"opacity": "1"
-			},500);
+			},800);
 		}else{
 			$(".header-fixed-box").removeClass("fixed");
 			// $(".header-layer").animate({
