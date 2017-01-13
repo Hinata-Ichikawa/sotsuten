@@ -5,12 +5,14 @@ $(function(){
 
 		if ($(window).scrollTop() > headerfixedbox){
 			$(".header-fixed-box").addClass("fixed");
-			$(".fixed").animate({"opacity": 1},500);
-			// $(".header-fixed").css({"top": "0vh"});
+			$(".header-layer").animate({
+				"opacity": "1"
+			},500);
 		}else{
 			$(".header-fixed-box").removeClass("fixed");
-			$(".fixed").animate({"opacity": 0},500);
-			// $(".header-fixed").css({"top": "90vh"});
+			// $(".header-layer").animate({
+			// 	"opacity": "0"
+			// },500);
 		}
 	})
 

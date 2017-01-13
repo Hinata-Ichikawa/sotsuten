@@ -181,10 +181,21 @@
 .header-fixed-box{
 	position: relative;
 	width: 100vw;
+	height: 10vh;
 	top: 90vh;
 }
+.header-layer{
+	top: 0vh;
+	width: 100vw;
+	height: 10vh;
+	background: url("../images/sky.png") no-repeat 0 0;
+	z-index: 500;
+	opacity: 0;
+}
 .header-fixed{
+	z-index: 999;
 	position: relative;
+	top: -10vh;
 	left: 20vw;
 	width: 60vw;
 	height: 10vh;
@@ -211,7 +222,7 @@ a{
 	transition: 0.25s;
 }
 a:link{
-	color: white;
+	color: black;
 }
 a:visited{
 	color: white;
@@ -228,8 +239,6 @@ a:active{
 	z-index: 999;
 	width: 100vw;
 	height: 10vh;
-	background-image: url("../images/sky.png");
-	opacity: 0;
 }
 .contents{
 	width:1080px;
