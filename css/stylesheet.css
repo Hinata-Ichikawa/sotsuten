@@ -315,11 +315,8 @@ h3 img{
 	width: 100vw;
 	background-color: #F1F0E3;
 }
-.works-place1{
-	margin: 3vh 0 3vh 15vw;
-}
-.works-place2{
-	margin: 3vh 0 3vh 15vw;
+.works-img{
+	padding-left: 10vw;
 }
 .bottom{
 	width: 100vw;
