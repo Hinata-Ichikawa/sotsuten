@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face{
+	font-family: "Harenosora";
+	src:url(../fonts/Harenosora.otf);
+}
 .top-layer{
 	width: 100vw;
 	background-color: #C1E4E9;
@@ -260,6 +264,7 @@ a:active{
 	line-height: 3.0em;
 	margin-bottom: 10px;
 	letter-spacing: 0.2vw;
+	font-family: "Harenosora";
 }
 h3 img{
 	display: block;
@@ -317,6 +322,19 @@ h3 img{
 }
 .works-img{
 	padding-left: 10vw;
+
+}
+.works table{
+	font-size: 1.5vw;
+	font-family: "Harenosora";
+}
+.works th{
+	padding-left: 30vw;
+	text-align: left;
+}
+.works td{
+	padding-left: 3vw;
+	padding-bottom: 1vh;
 }
 .bottom{
 	width: 100vw;
