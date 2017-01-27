@@ -129,30 +129,14 @@
 	z-index: 1;
 }
 
-/*.flower img:nth-child(1) {
-  left: 10vw;
-  top: 7vh;
-}*/
 .flower img:nth-child(2) {
-  left: 85vw;
+  left: 80vw;
   top: 75vh;
 }
 .flower img:nth-child(3) {
   left: 60vw;
   top: 65vh;
 }
-/*.flower img:nth-child(4) {
-  left: 40vw;
-  top: 73vh;
-}
-.flower img:nth-child(5) {
-  left: 45vw;
-  top: 44vh;
-}*/
-/*.flower img:nth-child(6) {
-  left: 60vw;
-  top: 55vh;
-}*/
 .flower img:nth-child(7) {
   left: 10vw;
   top: 8vh;
@@ -161,10 +145,6 @@
   left: 20vw;
   top: 50vh;
 }
-/*.flower img:nth-child(9) {
-  left: 87vw;
-  top: 80vh;
-}*/
 .flower img:nth-child(10) {
   left: 55vw;
   top: 10vh;
@@ -246,7 +226,7 @@ a:active{
 	height: 10vh;
 }
 .contents{
-	width:1080px;
+	width:100%;
 	margin: 0;
 }
 .contents-top{
