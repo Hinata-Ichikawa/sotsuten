@@ -338,11 +338,12 @@ h3 img{
 .works th{
 	width: 7em;
 	padding-left: 25vw;
+	padding-bottom: 2px;
 	text-align: left;
 }
 .works td{
 	padding-left: 6px;
-	padding-bottom: 1vh;
+	padding-bottom: 2vh;
 	width:40vw;
 }
 .bottom{
