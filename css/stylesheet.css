@@ -192,7 +192,8 @@
 	top: 0vh;
 	width: 100vw;
 	height: 10vh;
-	background: url("../images/sky.png") no-repeat 0 0;
+	/*background: url("../images/sky.png") no-repeat 0 0;*/
+	background: rgba(255,255,255,0.5);
 	z-index: 500;
 	opacity: 0;
 }
@@ -219,7 +220,7 @@
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 2.5vw;
-	color: white;
+	color: black;
 }
 a{
 	text-decoration: none;
@@ -229,7 +230,7 @@ a:link{
 	color: black;
 }
 a:visited{
-	color: white;
+	color: black;
 }
 a:hover{
 	color: #FAF7BC;
@@ -313,8 +314,29 @@ h3 img{
 	background-color: #FAF7BC;
 }
 .access-place{
-	text-align: center;
-	padding-bottom: 40px;
+	font-family: "Harenosora";
+	font-size: 0.8em;
+	line-height: 1.7em;
+	letter-spacing: 0.2vw;
+}
+.access-place1{
+	display: inline-block;
+	padding-left: 9vw;
+	width: 45vw;
+	height: 30vh;
+	vertical-align: top;
+}
+.access-place2{
+	display: inline-block;
+	top:0px;
+	vertical-align: top;
+}
+.access-place p{
+	padding-left: 1vw;
+}
+.p1{
+	margin-top: 15px; 
+	margin-bottom: 10px;
 }
 .works{
 	width: 100vw;
