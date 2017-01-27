@@ -311,7 +311,7 @@ h3 img{
 }
 .access{
 	width: 100vw;
-	background-color: #FAF7BC;
+	background-color: #FFF78D;
 }
 .access-place{
 	font-family: "Harenosora";
@@ -340,23 +340,30 @@ h3 img{
 }
 .works{
 	width: 100vw;
-	background-color: #F1F0E3;
+	background-color: #DDBCBC;
 }
 .works-img{
 	padding-left: 10vw;
-
+}
+.works-place1{
+	padding:10vh 0;
+}
+.works-place2{
+	padding:10vh 0;
 }
 .works table{
 	font-size: 1.5vw;
 	font-family: "Harenosora";
 }
 .works th{
-	padding-left: 30vw;
+	width: 7em;
+	padding-left: 25vw;
 	text-align: left;
 }
 .works td{
-	padding-left: 3vw;
+	padding-left: 6px;
 	padding-bottom: 1vh;
+	width:40vw;
 }
 .bottom{
 	width: 100vw;
