@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-/* CSS Document */
-
 @font-face {
   font-family: "Harenosora";
   src: url(../fonts/Harenosora.otf);
@@ -104,31 +101,6 @@
   left: 11vw;
   top: 15vh;
 }
-
-
-/*.place1 {
-	height: 2.75vh;
-	display: inline-block;
-	margin: 5vh auto 0;
-}
-
-.place2 {
-	height: 2.75vh;
-	display: inline-block;
-	margin: 2vh auto 0;
-}*/
-
-
-/*.flower {
-/*	position: relative;*/
-
-
-/*	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	z-index: -1;
-}*/
 
 .flower img {
   width: 14vw;
@@ -323,18 +295,6 @@ h3 img {
 .map-place1 {
   margin: 3vh 0 3vh 15vw;
 }
-<<<<<<< Updated upstream
-.works th{
-	width: 7em;
-	padding-left: 25vw;
-	padding-bottom: 2px;
-	text-align: left;
-}
-.works td{
-	padding-left: 6px;
-	padding-bottom: 2vh;
-	width:40vw;
-=======
 
 .map-place2 {
   margin: 3vh 0 3vh 15vw;
@@ -343,7 +303,6 @@ h3 img {
 .access {
   width: 100vw;
   background-color: #FFF78D;
->>>>>>> Stashed changes
 }
 
 .access-place {
@@ -378,7 +337,8 @@ h3 img {
 
 .works {
   width: 100vw;
-  background-color: #DDBCBC;
+  padding-bottom: 60px;
+  background-color: #dba2a2;
 }
 
 .works-img {
@@ -394,19 +354,25 @@ h3 img {
 }
 
 .works table {
-  font-size: 1.5vw;
   font-family: "Harenosora";
+  margin: 0 auto;
+}
+
+.works th,
+.works td {
+  font-size: 16px;
+  padding-bottom: 2px;
+  text-align: left;
+  height: 1.6em;
+  line-height: 1.4;
+  letter-spacing: 1px;
 }
 
 .works th {
-  width: 7em;
-  padding-left: 25vw;
-  text-align: left;
+  width: 8em;
 }
 
 .works td {
-  padding-left: 6px;
-  padding-bottom: 1vh;
   width: 40vw;
 }
 
