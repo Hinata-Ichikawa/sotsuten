@@ -1,106 +1,110 @@
 @charset "UTF-8";
+
 /* CSS Document */
-@font-face{
-	font-family: "Harenosora";
-	src:url(../fonts/Harenosora.otf);
+
+@font-face {
+  font-family: "Harenosora";
+  src: url(../fonts/Harenosora.otf);
 }
-.top-layer{
-	width: 100vw;
-	background-color: #C1E4E9;
-	z-index: 0;
+
+.top-layer {
+  width: 100vw;
+  background-color: #C1E4E9;
+  z-index: 0;
 }
 
 .top {
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-	position: relative;
-	z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 
 .sub-title {
-	width: 100vw;
-	position: relative;
+  width: 100vw;
+  position: relative;
 }
 
 .NCU {
-	width: 35vw;
-	position: absolute;
-	top: 3vh;
-	right: 20vw;
+  width: 32vw;
+  position: absolute;
+  top: 3vh;
+  right: 11vw;
 }
 
 .art {
-	width: 50vw;
-	display: block;
-	position: absolute;
-	top: 12vh;
-	right: 20vw;
+  width: 42vw;
+  display: block;
+  position: absolute;
+  top: 12vh;
+  right: 11vw;
 }
 
 .title {
-	position: absolute;
-	top:42%;
-	transform: translate(0%,-50%);
-	width: 100%;
-	text-align: center;
+  position: absolute;
+  top: 42%;
+  transform: translate(0%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 .title-top {
   margin-bottom: 7vh;
   margin-left: -5vw;
   position: relative;
-  left: -5vw;
+  left: -7vw;
 }
 
-.title-bottom  {
+.title-bottom {
   margin-right: -5vw;
   position: relative;
-  right: -5vw;
+  right: -9vw;
 }
 
 .Graduation {
-	width: 60vw;
+  width: 55vw;
 }
 
 .Works {
-	width: calc(60vw * 0.442);
-	margin-left: 6vw;
+  width: calc(55vw * 0.405);
+  margin-left: 6vw;
 }
 
 .Exhibition {
-	width: calc(60vw * 0.776);
-	margin-right: 5vw;
+  width: calc(55vw * 0.711);
+  margin-right: 5vw;
 }
 
 .year {
-	width: calc(60vw * 0.618);
+  width: calc(55vw * 0.764);
 }
 
 .footer {
-	width: 100vw;
-	text-align: center;
-	position: absolute;
-	top:75%;
-	transform: translate(0%,-50%);
-	height:30vh;
+  width: 100vw;
+  text-align: center;
+  position: absolute;
+  top: 81%;
+  transform: translate(0%, -50%);
+  height: 30vh;
 }
 
 .date {
-	display: block;
-	width: 50vw;
-	position: absolute;
-	left: 17vw;
-	top:7vh;
+  display: block;
+  width: 40vw;
+  position: absolute;
+  left: 11vw;
+  top: 7vh;
 }
 
 .time {
-	position: absolute;
-	display: block;
-	width: 30vw;
-	left: 17vw;
-	top:17vh;
+  position: absolute;
+  display: block;
+  width: 30vw;
+  left: 11vw;
+  top: 15vh;
 }
+
 
 /*.place1 {
 	height: 2.75vh;
@@ -114,8 +118,11 @@
 	margin: 2vh auto 0;
 }*/
 
+
 /*.flower {
 /*	position: relative;*/
+
+
 /*	top: 0;
 	left: 0;
 	width: 100vw;
@@ -124,217 +131,199 @@
 }*/
 
 .flower img {
-	width: 14vw;
-	position: absolute;
-	z-index: 1;
+  width: 14vw;
+  position: absolute;
+  z-index: 1;
 }
 
 .flower img:nth-child(2) {
   left: 80vw;
   top: 75vh;
 }
+
 .flower img:nth-child(3) {
   left: 60vw;
   top: 65vh;
 }
+
 .flower img:nth-child(7) {
   left: 10vw;
   top: 8vh;
 }
+
 .flower img:nth-child(8) {
   left: 20vw;
   top: 50vh;
 }
+
 .flower img:nth-child(10) {
   left: 55vw;
   top: 10vh;
 }
+
 .flower img:nth-child(11) {
   left: 35vw;
   top: 17vh;
 }
+
 .flower img:nth-child(12) {
   left: 3vw;
   top: 37vh;
 }
+
 .flower img:nth-child(13) {
   left: 80vw;
   top: 30vh;
 }
 
-.header-fixed-box{
-	position: relative;
-	width: 100vw;
-	height: 10vh;
-	top: 90vh;
+.header-fixed-box {
+  position: relative;
+  width: 100vw;
+  height: 10vh;
+  top: 90vh;
 }
-.header-layer{
-	top: 0vh;
-	width: 100vw;
-	height: 10vh;
-	/*background: url("../images/sky.png") no-repeat 0 0;*/
-	background: rgba(255,255,255,0.5);
-	z-index: 500;
-	opacity: 0;
+
+.header-layer {
+  top: 0vh;
+  width: 100vw;
+  height: 10vh;
+  /*background: url("../images/sky.png") no-repeat 0 0;*/
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 500;
+  opacity: 0;
 }
-.header-fixed{
-	z-index: 999;
-	position: relative;
-	top: -10vh;
-	left: 20vw;
-	width: 60vw;
-	height: 10vh;
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
+
+.header-fixed {
+  z-index: 999;
+  position: relative;
+  top: -10vh;
+  left: 20vw;
+  width: 60vw;
+  height: 10vh;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-.header-fixed ul{
-	display: table;
- 	table-layout: fixed;
- 	text-align: center;
-	width: 100%;
-	height: 2.5vw;
+
+.header-fixed ul {
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  height: 2.5vw;
 }
-.header-fixed li{
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 2.5vw;
-	color: black;
+
+.header-fixed li {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2.5vw;
+  color: black;
 }
-a{
-	text-decoration: none;
-	transition: 0.25s;
+
+a {
+  text-decoration: none;
+  transition: 0.25s;
 }
-a:link{
-	color: black;
+
+a:link {
+  color: black;
 }
-a:visited{
-	color: black;
+
+a:visited {
+  color: black;
 }
-a:hover{
-	color: #FAF7BC;
+
+a:hover {
+  color: #FAF7BC;
 }
-a:active{
-	color: #FAF7BC;
+
+a:active {
+  color: #FAF7BC;
 }
-.fixed{
-	position: fixed;
-	top: 0vh;
-	z-index: 999;
-	width: 100vw;
-	height: 10vh;
+
+.fixed {
+  position: fixed;
+  top: 0vh;
+  z-index: 999;
+  width: 100vw;
+  height: 10vh;
 }
-.contents{
-	width:100%;
-	margin: 0;
+
+.contents {
+  width: 100%;
+  margin: 0;
 }
-.contents-top{
-	display: block;
-	margin: 0 auto;
-	width: 50vw;
-	padding: 10vh 0 5vh 0;
+
+.contents-top {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+  padding: 10vh 0 5vh 0;
 }
-.contents-top img{
-	display: block;
-	margin: 0 auto;
+
+.contents-top img {
+  display: block;
+  margin: 0 auto;
 }
-.sentence{
-	font-size: 1.2vw;
-	text-align: center;
-	line-height: 3.0em;
-	margin-bottom: 10px;
-	letter-spacing: 0.2vw;
-	font-family: "Harenosora";
+
+.sentence {
+  font-size: 1.2vw;
+  text-align: center;
+  line-height: 3.0em;
+  margin-bottom: 10px;
+  letter-spacing: 0.2vw;
+  font-family: "Harenosora";
 }
-h3 img{
-	display: block;
-	margin:0 auto;
-	padding:3vh 0 5vh 0;
+
+h3 img {
+  display: block;
+  margin: 0 auto;
+  padding: 3vh 0 5vh 0;
 }
-.about{
-	width: 100vw;
-	background-color: #F5F5F5;
-	position: relative;
-	z-index: 1;
+
+.about {
+  width: 100vw;
+  background-color: #F5F5F5;
+  position: relative;
+  z-index: 1;
 }
-.about-layer{
-	position: relative;
-	z-index: 3;
+
+.about-layer {
+  position: relative;
+  z-index: 3;
 }
-.about-flower img{
-	position: absolute;
-	width: 22vw;
-	z-index:2;
+
+.about-flower img {
+  position: absolute;
+  width: 22vw;
+  z-index: 2;
 }
-.about-flower img:nth-child(1){
-	top:35vw;
-	right:47vh;
+
+.about-flower img:nth-child(1) {
+  top: 35vw;
+  right: 47vh;
 }
-.about-flower img:nth-child(2){
-	top:45vw;
-	left:35vh;
+
+.about-flower img:nth-child(2) {
+  top: 45vw;
+  left: 35vh;
 }
-.about-flower img:nth-child(3){
-	top:55vw;
-	right:45vh;
+
+.about-flower img:nth-child(3) {
+  top: 55vw;
+  right: 45vh;
 }
-.map{
-	width: 100vw;
-	background-color: #C1E4E9;
+
+.map {
+  width: 100vw;
+  background-color: #C1E4E9;
 }
-.map-place1{
-	margin: 3vh 0 3vh 15vw;
+
+.map-place1 {
+  margin: 3vh 0 3vh 15vw;
 }
-.map-place2{
-	margin: 3vh 0 3vh 15vw;
-}
-.access{
-	width: 100vw;
-	background-color: #FFF78D;
-}
-.access-place{
-	font-family: "Harenosora";
-	font-size: 0.8em;
-	line-height: 1.7em;
-	letter-spacing: 0.2vw;
-}
-.access-place1{
-	display: inline-block;
-	padding-left: 9vw;
-	width: 45vw;
-	height: 30vh;
-	vertical-align: top;
-}
-.access-place2{
-	display: inline-block;
-	top:0px;
-	vertical-align: top;
-}
-.access-place p{
-	padding-left: 1vw;
-}
-.p1{
-	margin-top: 15px; 
-	margin-bottom: 10px;
-}
-.works{
-	width: 100vw;
-	background-color: #DDBCBC;
-}
-.works-img{
-	padding-left: 10vw;
-}
-.works-place1{
-	padding:10vh 0;
-}
-.works-place2{
-	padding:10vh 0;
-}
-.works table{
-	font-size: 1.5vw;
-	font-family: "Harenosora";
-}
+<<<<<<< Updated upstream
 .works th{
 	width: 7em;
 	padding-left: 25vw;
@@ -345,8 +334,83 @@ h3 img{
 	padding-left: 6px;
 	padding-bottom: 2vh;
 	width:40vw;
+=======
+
+.map-place2 {
+  margin: 3vh 0 3vh 15vw;
 }
-.bottom{
-	width: 100vw;
-	background-color: #C1E4E9;
+
+.access {
+  width: 100vw;
+  background-color: #FFF78D;
+>>>>>>> Stashed changes
+}
+
+.access-place {
+  font-family: "Harenosora";
+  font-size: 0.8em;
+  line-height: 1.7em;
+  letter-spacing: 0.2vw;
+}
+
+.access-place1 {
+  display: inline-block;
+  padding-left: 9vw;
+  width: 45vw;
+  height: 30vh;
+  vertical-align: top;
+}
+
+.access-place2 {
+  display: inline-block;
+  top: 0px;
+  vertical-align: top;
+}
+
+.access-place p {
+  padding-left: 1vw;
+}
+
+.p1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.works {
+  width: 100vw;
+  background-color: #DDBCBC;
+}
+
+.works-img {
+  padding-left: 10vw;
+}
+
+.works-place1 {
+  padding: 10vh 0;
+}
+
+.works-place2 {
+  padding: 10vh 0;
+}
+
+.works table {
+  font-size: 1.5vw;
+  font-family: "Harenosora";
+}
+
+.works th {
+  width: 7em;
+  padding-left: 25vw;
+  text-align: left;
+}
+
+.works td {
+  padding-left: 6px;
+  padding-bottom: 1vh;
+  width: 40vw;
+}
+
+.bottom {
+  width: 100vw;
+  background-color: #C1E4E9;
 }
