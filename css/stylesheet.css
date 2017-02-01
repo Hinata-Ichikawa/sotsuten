@@ -1,9 +1,12 @@
 @charset "UTF-8";
 @font-face {
+  font-family: "futura";
+  src: url(../fonts/Futura.ttc);
+}
+@font-face {
   font-family: "Harenosora";
   src: url(../fonts/Harenosora.otf);
 }
-
 img {
   max-width: 100%;
 }
@@ -193,8 +196,10 @@ img {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  letter-spacing: .05em;
   font-size: 2.5vw;
   color: black;
+  font-family: futura;
 }
 
 a {
@@ -260,7 +265,7 @@ h3 img {
 
 .about {
   width: 100vw;
-  background-color: #F5F5F5;
+  background-color: #f0f5f5;
   position: relative;
   z-index: 1;
 }
@@ -293,7 +298,7 @@ h3 img {
 
 .map {
   width: 100vw;
-  background-color: #C1E4E9;
+  background-color: #F1EC4F;
 }
 
 .map-place1 {
@@ -306,7 +311,7 @@ h3 img {
 
 .access {
   width: 100vw;
-  background-color: #FFF78D;
+  background-color: #C1E4E9;
 }
 
 .access-place {
@@ -346,7 +351,7 @@ h3 img {
 .works {
   width: 100vw;
   padding-bottom: 60px;
-  background-color: #dba2a2;
+  background-color: #f0f5f5;
 }
 
 .works-img {
@@ -386,5 +391,5 @@ h3 img {
 
 .bottom {
   width: 100vw;
-  background-color: #C1E4E9;
+  background-color: #F1EC4F;
 }
