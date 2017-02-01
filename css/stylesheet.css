@@ -409,8 +409,13 @@ h3 img {
   width: 100%;
 }
 
+.bottom-link .thumb {
+  width: 225px;
+}
+
 .bottom .copyright{
   text-align: center;
   font-size: 14px;
+  padding: 20px 0;
   font-family: futura;
 }
