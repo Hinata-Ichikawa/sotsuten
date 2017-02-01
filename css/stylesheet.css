@@ -391,5 +391,26 @@ h3 img {
 
 .bottom {
   width: 100vw;
+  padding: 30px 0;
   background-color: #F1EC4F;
+}
+
+.bottom-links {
+  text-align: center;
+}
+
+.sponsar-a {
+  margin: 0 auto 20px;
+  padding: 20px 0;
+  width: 270px;
+}
+
+.bottom-links .thumb {
+  width: 100%;
+}
+
+.bottom .copyright{
+  text-align: center;
+  font-size: 14px;
+  font-family: futura;
 }
