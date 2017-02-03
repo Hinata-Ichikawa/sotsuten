@@ -229,3 +229,16 @@ img {
 .works-img {
   width: 70vw;
 }
+
+.works table:before {
+  width: calc( 4em + 60vw );
+}
+
+.works th {
+  width: 8em;
+}
+
+.works td {
+  width: 60vw;
+  padding: 0 0 2px 0;
+}
