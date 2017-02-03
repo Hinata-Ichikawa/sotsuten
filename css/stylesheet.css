@@ -211,11 +211,11 @@ a:visited {
 }
 
 a:hover {
-  color: #FAF7BC;
+  opacity: .55;
 }
 
 a:active {
-  color: #FAF7BC;
+  opacity: .55;
 }
 
 .fixed {
@@ -427,6 +427,10 @@ h3 img {
   margin: 0 auto 20px;
   padding: 20px 0;
   width: 270px;
+}
+
+.sponsar-a a:hover {
+  opacity: 1;
 }
 
 .bottom-links .thumb {
