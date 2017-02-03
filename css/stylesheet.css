@@ -293,13 +293,14 @@ h3 img {
 
 .map {
   width: 100vw;
+  padding-bottom: 60px;
   background-color: #F1EC4F;
 }
 
 .map-img {
   display: block;
   max-width: 720px;
-  height: auto; 
+  height: auto;
   margin: 0 auto;
 }
 
