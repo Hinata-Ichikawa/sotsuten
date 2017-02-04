@@ -143,6 +143,11 @@ img {
   font-size: 4vw;
 }
 
+.sentence {
+  padding: 0 1em;
+  font-size: 16px;
+}
+
 .contents {
   width: 100%;
   margin: 0;
@@ -231,7 +236,7 @@ img {
 }
 
 .works table:before {
-  width: calc( 4em + 60vw );
+  width: calc( 4em + 50vw );
 }
 
 .works th {
@@ -239,6 +244,7 @@ img {
 }
 
 .works td {
-  width: 60vw;
+  width: 50vw;
   padding: 0 0 2px 0;
 }
+
