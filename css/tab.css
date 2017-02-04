@@ -140,7 +140,8 @@ img {
 }
 
 .header-fixed li {
-  font-size: 4vw;
+  font-size: 21px;
+  margin: 0 8px;
 }
 
 .sentence {
@@ -188,7 +189,7 @@ img {
 }
 
 .map-img {
-  width: 70vw;
+  width: 94vw;
 }
 
 .map-place1 {
@@ -202,7 +203,7 @@ img {
 }
 
 .access-map {
-  width: 80vw;
+  width: 94vw;
 }
 
 .access-place {
