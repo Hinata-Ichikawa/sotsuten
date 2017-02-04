@@ -156,26 +156,28 @@ img {
 }
 
 .header-fixed-box {
-  position: relative;
+  position: absolute;
+  z-index: 10;
   width: 100vw;
   height: 10vh;
-  top: calc( 100vh - 75px );
+  bottom: -10vh;
 }
 
 .header-layer {
   position: absolute;
+  z-index: 98;
   top: 0vh;
   width: 100vw;
   height: 75px;
-  /*background: url("../images/sky.png") no-repeat 0 0;*/
   background: rgba(255, 255, 255, 0.5);
-  /*z-index: 1111500;*/
+  z-index: 11;
   opacity: 0;
 }
 
 .header-fixed {
   width: 100%;
   position: absolute;
+  z-index: 99;
   text-align: center;
   vertical-align: middle;
 }
@@ -195,6 +197,12 @@ img {
   color: black;
   font-family: futura;
   line-height: 75px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 a {
@@ -217,15 +225,6 @@ a:hover {
 a:active {
   opacity: .55;
 }
-
-.fixed {
-  position: fixed;
-  top: 0vh;
-  z-index: 999;
-  width: 100vw;
-  height: 10vh;
-}
-
 .contents {
   width: 100%;
   margin: 0;
